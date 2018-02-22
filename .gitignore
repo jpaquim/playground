@@ -85,6 +85,9 @@ typings/
 # dotenv environment variables file
 .env
 
+# next.js directory
+.next
+
 
 ### Vim ###
 # swap
