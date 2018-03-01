@@ -1,0 +1,17 @@
+{
+  "name": "parcel-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.6.2"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html -d build --public-url ./"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "ecmaVersion": "8"
+  }
+}
