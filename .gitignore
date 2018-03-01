@@ -89,6 +89,10 @@ typings/
 .next
 out
 
+# cache and build directories
+dist
+build
+.cache
 
 ### Vim ###
 # swap
